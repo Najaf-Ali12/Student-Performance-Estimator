@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import base64   #to insert the image of local device in background of streamlit app
-with open('Student_Performance_estimator_model.pkl','rb') as file:
+file=with open('Student_Performance_estimator_model.pkl','rb'):
     student_performance_estimator=pickle.load(file)
 #st.title("Student Performance Estimator")
 # Function to encode image to base64
