@@ -3,5 +3,4 @@ pandas
 scikit-learn
 jupyter
 streamlit
-Linear Regression
 pickle
